@@ -1,0 +1,25 @@
+{
+  "name": "css-frameworks",
+  "version": "0.0.1",
+  "description": "a social media project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EivindSundbo/css-frameworks.git"
+  },
+  "keywords": [
+    "css",
+    "frameworks",
+    "bootstrap",
+    "sass"
+  ],
+  "author": "Eivind Gjerløw Sundbø <eivind_ber@hotmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EivindSundbo/css-frameworks/issues"
+  },
+  "homepage": "https://github.com/EivindSundbo/css-frameworks#readme"
+}
