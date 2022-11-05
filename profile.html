@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/styles.css">
+    <title>Profile</title>
+</head>
+<body>
+    <header class="border-bottom">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <a class="navbar-brand col-6 ms-4" href="homepage.html"><div>Chatterbox</div></a>
+            <div class="col-5">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Profile</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Sign out</a>
+                    </li>
+                </ul>
+                <form class="my-2 my-lg-0 d-flex">
+                  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-primary ms-2 my-2 my-sm-0" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <!--User info card-->
+        <div class="user-card container border border-2 border-primary rounded mt-4">
+            <div class="row">
+                <div class="d-flex align-items-center justify-content-center col-4">
+                    <div class="profile_picture d-flex flex-column justify-content-center mb-lg-2">
+                        <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                    </div>
+                </div>
+                <div class="container col-8 col-md-5 mt-4">
+                    <h2 class=" mt-2 col-12">My connections</h2>
+                    <div class="row  text-center">
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                        <div class="profile_picture col-3">
+                            <img src="/icon-5359554_640.png" class="img-fluid" alt="Profile picture">
+                            <p>Paul</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Post on wall-->
+        <div class="container">
+            <div class="row d-flex justify-content-center mt-3 mb-3">
+              <input class="col-8 p-1" type="text" placeholder="Post on user's wall" required minlength="8">
+              <div class="col-1"></div>
+              <button class="col-3 btn btn-primary text-white" type="submit">Post</button>
+            </div>
+        </div>
+
+        <!--Previous posts-->
+        <div class="user-card container mb-3 border border-2 border-primary rounded">
+            <div class="profile_picture col-12">
+              <div class="row mt-2">
+                <img src="/icon-5359554_640.png" class="img-fluid col-3" alt="Profile picture">
+                <h2 class="col-9 d-flex justify-content-start align-items-center">Peter Pan</h2>
+              </div>
+            </div>
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quos reprehenderit aliquam ipsam in ratione a vel. In id, exercitationem officiis voluptatem et reprehenderit at libero optio saepe perferendis repellat.</p>
+
+            <!--Reply to comment-->
+            <div class="user-card container mb-3 border border-primary rounded">
+                <div class="row">
+                    <div class="col-10">
+
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quos reprehenderit aliquam ipsam in ratione a vel. In id, exercitationem officiis voluptatem et reprehenderit at libero optio saepe perferendis repellat.</p>
+                    </div>
+                    
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center">
+                        <img src="/icon-5359554_640.png" class="img-fluid col-7" alt="Profile picture">
+                        <h3 class="col-7">Peter</h3>
+                        <button class="col-12 mt-2 mb-2 btn btn-primary text-white" type="submit">Reply</button>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between mb-2">
+                    <input class="col-8" type="text" placeholder="Reply to Peter's post" required minlength="8">
+                    <button class="col-3 mt-2 mb-2 btn btn-primary text-white" type="submit">Reply</button>
+                </div>
+            </div>
+        </div>
+
+        <!--Previous posts-->
+        <div class="user-card container mb-3 border border-2 border-primary rounded">
+            <div class="profile_picture col-12">
+              <div class="row mt-2">
+                <img src="/icon-5359554_640.png" class="img-fluid col-3" alt="Profile picture">
+                <h2 class="col-9 d-flex justify-content-start align-items-center">Peter Pan</h2>
+              </div>
+            </div>
+            <p class="mt-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quos reprehenderit aliquam ipsam in ratione a vel. In id, exercitationem officiis voluptatem et reprehenderit at libero optio saepe perferendis repellat.</p>
+
+            <!--Reply to comment-->
+            <div class="user-card container mb-3 border border-primary rounded">
+                <div class="row">
+                    <div class="col-10">
+
+                    </div>
+                    <div class="col-8 d-flex justify-content-center align-items-center mt-2">
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum, quos reprehenderit aliquam ipsam in ratione a vel. In id, exercitationem officiis voluptatem et reprehenderit at libero optio saepe perferendis repellat.</p>
+                    </div>
+                    
+                    <div class="col-4 d-flex flex-column justify-content-center align-items-center text-center">
+                        <img src="/icon-5359554_640.png" class="img-fluid col-7" alt="Profile picture">
+                        <h3 class="col-7">Peter</h3>
+                        <button class="col-12 mt-2 mb-2 btn btn-primary text-white" type="submit">Reply</button>
+                    </div>
+                </div>  
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-between mb-2">
+                    <input class="col-8" type="text" placeholder="Reply to Peter's post" required minlength="8">
+                    <button class="col-3 mt-2 mb-2 btn btn-primary text-white" type="submit">Reply</button>
+                </div>
+            </div>
+        </div> 
+    </main>
+    
+</body>
+</html>
