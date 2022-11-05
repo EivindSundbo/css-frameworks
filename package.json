@@ -4,7 +4,7 @@
   "description": "a social media project",
   "main": "index.js",
   "scripts": {
-    "build": "sass input:output"
+    "build": "sass src/scss:dist/css"
   },
   "repository": {
     "type": "git",
