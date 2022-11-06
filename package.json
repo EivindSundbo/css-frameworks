@@ -4,7 +4,8 @@
   "description": "a social media project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src/scss:dist/css",
+    "watch": "sass --watch src/scss:dist/css"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/EivindSundbo/css-frameworks/issues"
   },
-  "homepage": "https://github.com/EivindSundbo/css-frameworks#readme"
+  "homepage": "https://github.com/EivindSundbo/css-frameworks#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  },
+  "devDependencies": {
+    "sass": "^1.56.0"
+  }
 }
